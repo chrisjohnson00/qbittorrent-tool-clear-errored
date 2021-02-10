@@ -1,28 +1,31 @@
 version: 2
 updates:
 - package-ecosystem: pip
-  directory: "/"
+  directory: '/'
   schedule:
     interval: daily
   pull-request-branch-name:
-    separator: "-"
+    separator: '-'
   open-pull-requests-limit: 99
   commit-message:
-    prefix: "chore"
+    prefix: 'chore'
+  target-branch: develop
 - package-ecosystem: docker
-  directory: "/"
+  directory: '/'
   schedule:
     interval: daily
   pull-request-branch-name:
-    separator: "-"
+    separator: '-'
   open-pull-requests-limit: 99
   commit-message:
-    prefix: "chore"
+    prefix: 'chore'
+  target-branch: develop
 - package-ecosystem: github-actions
-  directory: "/"
+  directory: '/'
   schedule:
-    interval: "daily"
+    interval: 'daily'
   commit-message:
-    prefix: "chore"
+    prefix: 'chore'
   pull-request-branch-name:
-    separator: "-"
+    separator: '-'
+  target-branch: develop
