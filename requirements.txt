@@ -4,4 +4,4 @@ idna==2.10
 pygogo==0.13.2
 python-qbittorrent==0.4.2
 requests==2.25.1
-urllib3==1.26.2
+urllib3==1.26.5
