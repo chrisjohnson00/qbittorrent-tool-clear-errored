@@ -1,5 +1,5 @@
 certifi==2020.12.5
-chardet==4.0.0
+chardet==5.0.0
 idna==2.10
 pygogo==0.13.2
 python-qbittorrent==0.4.2
